@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "lista_enc.h"
 #include "pilha_enc.h"
 #include "baralho.h"
 
