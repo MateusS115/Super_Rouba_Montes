@@ -33,7 +33,7 @@ void imprimeListaEnc(ListaEnc *lista){
 }
 
 // Funcao que insere um nodo no inicio de uma lista
-int insereInicioListaEnc(ListaEnc *lista, Info info){
+int insereInicioListaEnc(ListaEnc *lista, Info2 info){
    NodoLEnc *novo = (NodoLEnc*)malloc(sizeof(NodoLEnc));
    if (novo == NULL) // Idealmente, sempre checar!
       return 0;

@@ -10,10 +10,10 @@ typedef struct{
    char email[TAM_MAX_EMAIL];
 } Aluno;
 
-typedef Aluno Info;
+typedef Aluno Info2;
 
 typedef struct nodoLEnc{
-   Info info;
+   Info2 info;
    struct nodoLEnc *prox;
 } NodoLEnc;
 

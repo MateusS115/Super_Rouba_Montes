@@ -5,10 +5,10 @@
 #define TAM_MAX_EMAIL 25
 
 typedef enum{
-   copas = 1,
-   espadas = 2,
-   paus = 3,
-   ouros = 4
+   copas = 0,
+   espadas = 1,
+   paus = 2,
+   ouros = 3
 } Naipe;
 
 typedef struct{
@@ -18,12 +18,10 @@ typedef struct{
 
 typedef Carta Info;
 
-typedef struct nodoLEnc{
+typedef struct nodoPEnc{
    Info info;
-   struct nodoLEnc *prox;
-} NodoLEnc;
-
-typedef NodoLEnc NodoPEnc;
+   struct nodoPEnc *prox;
+} NodoPEnc;
 
 typedef struct pilhaEnc{
    NodoPEnc *topo;
