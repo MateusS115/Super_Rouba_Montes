@@ -7,5 +7,7 @@
 
 int main()
 {
+    PilhaEnc *baralho = criaBaralho();
+    printf("%d", desempilhaPilhaEnc(baralho).valor);
     return 0;
 }

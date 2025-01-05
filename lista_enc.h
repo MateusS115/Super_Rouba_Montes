@@ -31,7 +31,7 @@ void destroiListaEnc(ListaEnc *lista);
 void imprimeListaEnc(ListaEnc *lista);
 
 // Funcao que insere um nodo no inicio de uma lista
-int insereInicioListaEnc(ListaEnc *lista, Info info);
+int insereInicioListaEnc(ListaEnc *lista, Info2 info);
 
 // Funcao que resgata um nodo com uma informacao de uma lista
 NodoLEnc* buscaInfoListaEnc(ListaEnc* lista, int chave);
