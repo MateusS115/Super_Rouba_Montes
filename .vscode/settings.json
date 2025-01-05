@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "pilha_enc.h": "c"
+        "pilha_enc.h": "c",
+        "baralho.h": "c"
     }
 }
