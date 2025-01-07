@@ -10,6 +10,7 @@ ListaEnc* criaListaEnc(){
    return lista;
 }
 
+
 // Funcao que destroi uma lista
 void destroiListaEnc(ListaEnc *lista){
    NodoLEnc *aux = lista->prim;
@@ -21,16 +22,6 @@ void destroiListaEnc(ListaEnc *lista){
    free(lista);
 }
 
-// Funcao que imprime todos os nodos de uma lista
-void imprimeListaEnc(ListaEnc *lista){
-   NodoLEnc *aux;
-   printf("-----------------------------------------\n");
-   for(aux = lista->prim; aux != NULL; aux = aux->prox)
-      printf("%d | %d \n", aux->info.chave,
-                               aux->info.naipe,
-                               aux->info.valor);
-   printf("-----------------------------------------\n");
-}
 
 // Funcao que insere um nodo no inicio de uma lista
 int insereInicioListaEnc(ListaEnc *lista, Carta info){
@@ -70,4 +61,3 @@ int removeInfoListaEnc(ListaEnc* lista, int chave){
    }
    return 0; // Nao encontrou
 }
-
